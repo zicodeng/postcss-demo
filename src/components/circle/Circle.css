@@ -1,0 +1,21 @@
+@import 'variables.scss';
+
+/*
+Even though we already have a global container class,
+but this one is only local to circle module,
+and thus will not be affected by global container class style.
+*/
+
+.container {
+    width: $smallSize;
+    height: $smallSize;
+    border-radius: $smallSize;
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content {
+        color: $primaryColor;
+    }
+}

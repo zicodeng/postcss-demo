@@ -1,0 +1,15 @@
+@import 'normalize.css';
+/* To share variables across different files, we need postcss-import plugin. */
+@import 'variables.scss';
+
+/* Global style */
+body {
+    background-color: $primaryColor;
+}
+
+/* :global indicates that this is a global style. */
+:global .container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: block;
+}

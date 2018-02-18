@@ -1,0 +1,36 @@
+{
+  "name": "postcss-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-build": "webpack --watch --color --progress"
+  },
+  "author": "Zico Deng",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-css-modules": "^3.3.3",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "lost": "^8.2.0",
+    "normalize.css": "^8.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-scss": "^1.0.3",
+    "postcss-simple-vars": "^4.1.0",
+    "react": "^16.2.0",
+    "react-css-modules": "^4.7.1",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0"
+  }
+}
